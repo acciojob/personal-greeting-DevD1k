@@ -1,3 +1,15 @@
-# Write a React component that allows a user to enter their name and displays a personalized greeting.
+# Greeting new students at School.
+## We are suppose to create a welcome page for new students when they login on our site.
+We want to isolate main component from greeting text so we choose to create a welcome component that takes name as input and output a welcome message.
 
-![output](https://storage.googleapis.com/acciojob-open-file-collections/Screen_Recording_2023-02-27_at_12_23_45_PM_AdobeExpress.gif)
+
+### Details
+- Create a Welcome component(greeting  message) in Welcome.js 
+- Use React functional component to do so.
+- Output the welcome message "Hey <name>!" where name is name of the student using h1 tag.
+- Also render the "Welcome to Newton School." using h2 tag.
+- A prop named "name" will be passed to Welcome component use it in writing greeting text.
+
+### Acceptance criteria
+- Welcome message should be as given in the Details section.
+- Use of functional component.

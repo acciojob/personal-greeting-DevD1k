@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/App.css";
-import Welcome from "./Welcome";
+import '../styles/App.css';
+import Welcome from './Welcome';
 
 const App = () => {
-  const studentName = "John Doe";
+  const studentName = 'John Doe';
 
   return (
     <div>
